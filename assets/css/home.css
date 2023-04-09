@@ -1,6 +1,7 @@
 body{
     text-align: right;
     direction: rtl;
+    color: white;
 }
 .header{
     background-image: url("../images/header.png");
@@ -15,7 +16,7 @@ body{
 .nav-link {
     color: black;
 }
-.btn{
+.download{
     color: white;
     border-radius: 15px;
     font-size: 11px;
@@ -25,4 +26,17 @@ body{
     top:60%;
     gap: 2%;
     margin: 4%;
+}
+.food{
+    background-image: url("../images/1.jpg");
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.title{
+    color: white;
+    background-color: black;
+}
+.orderNow{
+    color: white;
 }
