@@ -5,11 +5,12 @@ body{
 }
 .header{
     background-image: url("../images/header.png");
-    height: 100vh;
+    height: 635px;
     background-repeat: no-repeat;
     background-size: 100%;
-    max-width: 100vw;
+    max-width: 100%;
 }
+
 .navbar-nav{
     direction: rtl;
 }
@@ -25,7 +26,7 @@ body{
 .btnContainer{
     top:60%;
     gap: 2%;
-    margin: 4%;
+    margin-right: 5%;
 }
 .food{
     background-image: url("../images/1.jpg");
@@ -39,4 +40,11 @@ body{
 }
 .orderNow{
     color: white;
+    font-size: 11px;
 }
+@media(max-width:768px) {
+    .header{
+      height: 380px;
+  
+    }  
+  }
