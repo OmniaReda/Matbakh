@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/Outlined v001.otf");
+}
 body{
     text-align: right;
     direction: rtl;
     color: white;
+   overflow-x: hidden;
+
 }
 .header{
     background-image: url("../images/header.png");
@@ -42,9 +48,33 @@ body{
     color: white;
     font-size: 11px;
 }
+.offers{
+background-image: url('../images/pizza.jpg');
+height: 700px;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.todayOffer{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 16%;
+    right: 45%;
+
+}
 @media(max-width:768px) {
     .header{
       height: 380px;
   
     }  
+    .todayOffer{
+        
+        top: 5%;
+        right: 30%;
+    }
+    .offers {
+        height: 340px;}
   }
